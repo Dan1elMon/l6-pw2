@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'travello',
+    
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
